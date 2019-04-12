@@ -13,7 +13,7 @@ def print_first_word(words):
     print(word)
 
 def print_last_word(words):
-    "Prints the last word after popping it off."""
+    """Prints the last word after popping it off."""
     word = words.pop(-1)
     print(word)
 
@@ -23,7 +23,7 @@ def sort_sentance(sentance):
    return sort_words(words)
 
 def print_first_and_last(sentance):
-    """Prints the first and last word in a sentance."""
+    """Prints the first and last word in a sentence."""
     words = break_words(sentance)
     print_first_word(words)
     print_last_word(words)
